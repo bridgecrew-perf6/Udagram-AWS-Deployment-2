@@ -27,5 +27,8 @@
 [License](LICENSE.txt)
 
 ## URLS:
-s3 bucket: "http://exhausted-bucket.s3-website-us-east-1.amazonaws.com/"
-rds: "exhausted-db.cntlvmvqesgm.us-east-1.rds.amazonaws.com"
+rds:"another-db.cntlvmvqesgm.us-east-1.rds.amazonaws.com"
+
+s3 bucket: "http://last-trial-bucket.s3-website-us-east-1.amazonaws.com/"
+
+elastic beanstalk: "http://api-env.eba-ymus2qud.us-east-1.elasticbeanstalk.com/"

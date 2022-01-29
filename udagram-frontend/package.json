@@ -7,10 +7,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && ng build",
+    "build1": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://exhausted-bucket/"
+    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://last-trial-bucket/"
   },
   "private": true,
   "dependencies": {

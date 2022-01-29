@@ -19,6 +19,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
 
   const app = express();
   const port = process.env.PORT || 3000;
+  app.set('port', port); // ****
 
   app.use(bodyParser.json());
 
@@ -32,8 +33,14 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   });
 
   // Start the Server
-  app.listen(port, () => {
-    console.log(`server running ${process.env.URL}`);
-    console.log(`press CTRL+C to stop server`);
+  app.listen(app.get('port'), () => {
+    try {
+      console.log(`server running ${process.env.URL}`);
+      console.log(`press CTRL+C to stop server`);
+      
+    } catch (error) {
+      console.log("YALAHWAAAAAY", error);
+    }
+    
   });
 })();
