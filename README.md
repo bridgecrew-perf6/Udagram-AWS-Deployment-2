@@ -1,4 +1,15 @@
-# Udagram
+# Udagram Deployment - AWS/CircleCI
+This project is part of Udacity's FullStack JavaScript Nanodegree. The code was given as a starter project and the task was to deploy it on AWS using CircleCI.
+
+## URLS:
+```
+- RDS Endpoint: "another-db.cntlvmvqesgm.us-east-1.rds.amazonaws.com"
+
+- S3 Bucket: "http://last-trial-bucket.s3-website-us-east-1.amazonaws.com/"
+
+- Elastic Beanstalk: "http://api-env.eba-ymus2qud.us-east-1.elasticbeanstalk.com/"
+```
+
 
 ### Dependencies
 
@@ -9,10 +20,9 @@
 
 - AWS CLI v2, v1 can work but was not tested for this project
 
-- A RDS database running Postgres.
+- RDS database running Postgres.
 
-- A S3 bucket for hosting uploaded pictures.
-
+- S3 bucket for hosting uploaded pictures.
 ```
 
 
@@ -21,14 +31,7 @@
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
-
+  
 ## License
 
 [License](LICENSE.txt)
-
-## URLS:
-rds:"another-db.cntlvmvqesgm.us-east-1.rds.amazonaws.com"
-
-s3 bucket: "http://last-trial-bucket.s3-website-us-east-1.amazonaws.com/"
-
-elastic beanstalk: "http://api-env.eba-ymus2qud.us-east-1.elasticbeanstalk.com/"
