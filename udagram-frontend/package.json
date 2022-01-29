@@ -6,11 +6,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://mennat-last-bucket2/ --profile rootmennat2"
+    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://exhausted-bucket/"
   },
   "private": true,
   "dependencies": {

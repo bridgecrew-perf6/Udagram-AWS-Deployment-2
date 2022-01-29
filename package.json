@@ -1,5 +1,18 @@
-
 {
-    "scripts": {},
-    "devDependencies": {}
-}
+    "name": "udagram-deployment",
+    "version": "1.0.0",
+    "description": "Hosting the Udacity Udagram Full Stack Application on AWS",
+
+    "scripts": {
+        "backend:install": "cd ./udagram-api && npm install",
+        "frontend:install": "cd ./udagram-frontend && npm install",
+        "backend:build": "cd ./udagram-api && npm run build",
+        "frontend:build": "cd ./udagram-frontend && npm run build",
+        "backend:deploy": "cd ./udagram-api && npm run deploy",
+        "frontend:deploy": "cd ./udagram-frontend && npm run deploy"
+       
+    },
+
+  
+    "author": "Menna Abuelnaga <mennat.abuelnaga@gmail.com>"
+  }
