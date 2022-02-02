@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/mennatabuelnaga/Udagram-AWS-Deployment/tree/main.svg?style=svg)](https://circleci.com/gh/mennatabuelnaga/Udagram-AWS-Deployment/tree/main)
 # Udagram Deployment - AWS/CircleCI
 This project is part of Udacity's FullStack JavaScript Nanodegree. The code was given as a starter project and the task was to deploy it on AWS using CircleCI.
 
@@ -35,3 +36,4 @@ This project is part of Udacity's FullStack JavaScript Nanodegree. The code was 
 ## License
 
 [License](LICENSE.txt)
+
